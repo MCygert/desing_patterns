@@ -2,8 +2,8 @@ from __future__ import annotations
 
 from typing import List
 
-from visitor.visitor import Visitor, ConcreteVisitor1, ConcreteVisitor2
-from visitor.components import Component, ConcreteComponentA, ConcreteComponentB
+from behavioral.visitor.visitor import Visitor, ConcreteVisitor1, ConcreteVisitor2
+from behavioral.visitor.components import Component, ConcreteComponentA, ConcreteComponentB
 
 
 def client_code(components: List[Component], visitor: Visitor) -> None:

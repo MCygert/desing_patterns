@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from visitor.components import ConcreteComponentA, ConcreteComponentB
+from behavioral.visitor.components import ConcreteComponentA, ConcreteComponentB
 
 
 class Visitor(ABC):

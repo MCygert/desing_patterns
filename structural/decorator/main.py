@@ -1,4 +1,4 @@
-from decorator.components import Component, ConcreteComponent, ConcreteDecoratorA, ConcreteDecoratorB
+from structural.decorator.components import Component, ConcreteComponent, ConcreteDecoratorA, ConcreteDecoratorB
 
 
 def client(component: Component) -> None:

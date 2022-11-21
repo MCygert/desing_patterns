@@ -1,4 +1,4 @@
-from abstract_factory.factories import AbstractFactory, VictorianFactory, ArtDecoFactory
+from creational.abstract_factory.factories import AbstractFactory, VictorianFactory, ArtDecoFactory
 
 
 def client(factory: AbstractFactory) -> str:

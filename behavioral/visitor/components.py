@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from visitor.visitor import Visitor
+from behavioral.visitor.visitor import Visitor
 
 
 class Component(ABC):

@@ -1,7 +1,7 @@
 import string
 from abc import ABC, abstractmethod
 
-from strategy import Strategy
+from behavioral.strategy import Strategy
 
 
 class Context:
